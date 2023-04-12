@@ -247,6 +247,34 @@
 					"response": []
 				},
 				{
+					"name": "CREATE User gender Non-Binary",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \r\n    \"name\": \"Maya\",\r\n    \"dateBirth\": \"1979-07-12\",\r\n    \"countryResidence\": \"FRANCE\",\r\n    \"phoneNumber\": \"0654765543\",\r\n    \"gender\": \"Non-Binary\"\r\n\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "CREATE User gender unhown",
 					"request": {
 						"method": "POST",
@@ -620,7 +648,35 @@
 					"response": []
 				},
 				{
-					"name": "UPDATE User date birth bad format",
+					"name": "UPDATE User not an adult",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \r\n    \"name\": \"Maya\",\r\n    \"dateBirth\": \"19979-07-12\",\r\n    \"countryResidence\": \"FRANCE\",\r\n    \"phoneNumber\": \"0654765543\",\r\n    \"gender\": \"Female\"\r\n\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE User date birth bad format Copy",
 					"request": {
 						"method": "PUT",
 						"header": [],
