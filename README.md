@@ -145,14 +145,14 @@ Content-Type: application/json
 
 DELETE http://localhost:8080/users/1
 ## DONE LIST (ce que j'ai pu réaliser)
-la séparation des responsabilités (controleur/service/repo).
-Utilisation d'une db H2 embarquée, ainsi que spring data.
-Mise en place des TU/TI.
-Documentation du code.
-Utilisation de Lombok (@Data)
-Validation par annotations.
-Création d'annotations spécifiques : @CountryFr @AdultUserFr @PhoneNumberFr etc  
-Utilisation controleurAdvice pour gérer les exceptions 
+- La séparation des responsabilités (controleur/service/repo).
+- Utilisation d'une db H2 embarquée, ainsi que spring data.
+- Mise en place des TU/TI.
+- Documentation du code.
+- Utilisation de Lombok (@Data)
+- Validation par annotations.
+- Création d'annotations spécifiques : @CountryFr @AdultUserFr @PhoneNumberFr etc  
+- Utilisation controleurAdvice pour gérer les exceptions 
 
 ## TODO LIST /Axe d'améliorations
 Par manque de temps, certains points n'ont pas été traités :
