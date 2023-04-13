@@ -121,10 +121,13 @@ Only residents adult French residents can create an account.
   Date of birth must be in the formats dd/MM/yyyy | dd-MM-yyyy | yyyy/MM/dd | yyyy-MM-dd.
   User must reach the age of majority witch is 18 years
 
-  France is an optional field 
+  Country of Residence is an mandatory field and cannot be null or empty. 
   France is the only Country of Residence accepted. Allowed values: FR, FRANCE, France.
+  
+  Phone number is an optional field
+  Phone number should be in a french format (eg 06 01 01 01 01)
 
-   Gender is an optional Gender (Female/Male/Non-Binary)
+  Gender is an optional Gender (Female/Male/Non-Binary)
 ```
 
 - To update an existing user by ID:
