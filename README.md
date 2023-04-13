@@ -161,5 +161,5 @@ DELETE http://localhost:8080/users/1
 Par manque de temps, certains points n'ont pas été traités :
 - Mise en place de AOP Log
 - Mise en place MapStruct pour faciliter les mappings
-- Tests d'intégrations pour les cas déclenchant une exception fonctionnelle
+- Certains tests d'intégrations pour les cas déclenchant une exception fonctionnelle
 
