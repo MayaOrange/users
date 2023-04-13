@@ -1,4 +1,4 @@
-Users API is a RESTful web service that allows clients to perform CRUD (Create, Read, Update, Delete) operations on user resources. It is built using java 17 and Spring Boot 3.0.0
+Users is a Rest API that allows operations CRUD (Create, Read, Update, Delete) for users. It is built using java 17 and Spring Boot 3.0.0
 
 ## API Endpoints
 
